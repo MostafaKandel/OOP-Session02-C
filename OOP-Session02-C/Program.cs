@@ -42,7 +42,7 @@
 
             #region question 3
             // arrray of Persons
-
+            /*
             Person[] people = new Person[3];
 
             for (int i = 0; i < people.Length; i++)
@@ -71,6 +71,26 @@
             }
             Console.Write("the oldest person: ");
             Console.WriteLine(oldestPerson.ToString());
+            */
+            #endregion
+
+
+            #region question 4
+            // Rectangle struct
+
+            Rectangle rect1 = new Rectangle();
+            Rectangle rect2 = new Rectangle();
+
+            rect1.Width = 5;
+            rect1.Height = 10;
+
+            rect1.DisplayInfo();
+
+            rect2.Width = -3; // This will throw an exception
+            rect2.Height = -4;// this will show an error message
+
+
+            rect2.DisplayInfo();
 
             #endregion
         }
